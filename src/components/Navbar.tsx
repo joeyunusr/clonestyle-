@@ -47,11 +47,11 @@ export default function Navbar() {
             : 'max-w-7xl bg-transparent border border-transparent px-6 py-6 md:py-8 rounded-none'
         }`}>
           <Link to="/" className="flex items-center gap-2 relative z-[70]">
-            {/* Logo representation */}
-            <div className="flex gap-[2px]">
-              <div className="w-4 h-6 border-2 border-[#2b2b2b] rounded-[4px]" />
-              <div className="w-4 h-6 border-2 border-[#2b2b2b] rounded-[4px]" />
-            </div>
+            <img 
+              src="https://cdn.scalev.com/uploads/1787795331/U3Pu-DuVqKXirokCNcUc7Q/1787795331594-ChatGPT-Image-27-Agu-2026,-08.43.50.webp" 
+              alt="Social Vibe Media Logo" 
+              className="h-8 w-auto object-contain" 
+            />
           </Link>
 
           <div className="hidden md:flex items-center gap-8 font-sans text-[13px] tracking-normal text-[#2b2b2bcc]">
